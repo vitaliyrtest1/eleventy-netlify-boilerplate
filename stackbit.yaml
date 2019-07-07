@@ -1,11 +1,12 @@
 stackbitVersion: ~0.2.0
 ssgName: eleventy
+version: 0.8.2
 uploadDir: img
 buildCommand: eleventy
 publishDir: _site
 dataDir: _data
 pagesDir: ""
-staticDir: ""
+staticDir: "static"
 pageTemplateKey: layout
 models:
   metadata:
@@ -63,7 +64,7 @@ models:
     label: Page
     description: Generic page layout
     folder: pages
-    exclude: {home.md,blog.md,contact.md}
+    exclude: "{home.md,blog.md,contact.md}"
     template: layouts/page.njk
     fields:
       - name: title
