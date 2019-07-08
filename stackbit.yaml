@@ -1,5 +1,5 @@
 stackbitVersion: ~0.2.0
-ssgName: eleventy
+ssgName: jekyll
 version: 0.8.2
 uploadDir: img
 buildCommand: eleventy
